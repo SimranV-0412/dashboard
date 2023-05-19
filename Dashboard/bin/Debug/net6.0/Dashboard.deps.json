@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dashboard/1.0.0": {
+        "dependencies": {
+          "EditorJS": "1.0.1.10",
+          "HtmlAgilityPack": "1.11.46",
+          "Markdig": "0.31.0",
+          "TinyMCE": "6.4.2"
+        },
+        "runtime": {
+          "Dashboard.dll": {}
+        }
+      },
+      "EditorJS/1.0.1.10": {},
+      "HtmlAgilityPack/1.11.46": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.46.0",
+            "fileVersion": "1.11.46.0"
+          }
+        }
+      },
+      "Markdig/0.31.0": {
+        "runtime": {
+          "lib/net6.0/Markdig.dll": {
+            "assemblyVersion": "0.31.0.0",
+            "fileVersion": "0.31.0.0"
+          }
+        }
+      },
+      "TinyMCE/6.4.2": {}
+    }
+  },
+  "libraries": {
+    "Dashboard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EditorJS/1.0.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dq4zcvx6eYkbBBy2U4ytiF1jSrmsrSmUH/KQf/dF1G5lY3+X1dCinQRMq4jKQum2JIVL/XDpofWqCJFmrKkWlA==",
+      "path": "editorjs/1.0.1.10",
+      "hashPath": "editorjs.1.0.1.10.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "path": "htmlagilitypack/1.11.46",
+      "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
+    },
+    "Markdig/0.31.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CEdZ3KyFfz5IPMrofhCOSrc4O2KNvSXSMXt3fv0W5AFCsk6a/JhKZuTBxGSadNt8n4zyyd/xXfoUMvr4ZbZ4Fw==",
+      "path": "markdig/0.31.0",
+      "hashPath": "markdig.0.31.0.nupkg.sha512"
+    },
+    "TinyMCE/6.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N0r3aGAI8JFRsWekVNU7Fp8cEyWuT85S5c7k8va/At66kO8r+0cMGP+p9KjiTZBQK5aJi6HBvnSznYqOhjXbAQ==",
+      "path": "tinymce/6.4.2",
+      "hashPath": "tinymce.6.4.2.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Dashboard.Models.ContentModel
+@{
+    ViewData["Title"] = "Editor";
+}
+<body>
+
+    <h3>Text Editor</h3>
+    <br />
+    <form action="@Url.Action("Preview", "Home")" method="post">
+
+        <div class="form-outline mb-4">
+            <label class="form-label">Title</label>
+            <div>
+                <input type="text" asp-for="Title" name="Title" class="form-control" />
+                
+            </div>
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label">Content</label>
+            <div>
+                <textarea id ="Content" asp-for="Content" name="Content" class="form-control"></textarea>
+            </div>
+        </div>
+        <input type="Submit" class="btn btn-primary" value="Create" />
+    </form>
+    
+    @*<script src="~/js/tinymce/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea#Content',
+            //mode: "textarea",
+            //theme: "modern",
+            width: 1000,
+            height: 300,
+            plugins:[
+                'advlist','autolink','link','image','lists','charmp','preview','anchor','pagebreak','searchreplace','wordcount',
+                'visualblocks','code','fullscreen','insertdatetime','media','table','emoticons','template','codesample'
+            ],
+            toolbar: 'undo rendo| styles | bold itelic underlines | alignleft aligncenter alignright alignjustify |'+
+            'bullist numlist outdent indent | link image | print preview media fullscreen |'+
+            'forecolor backcolor emoticons',
+            menu: {
+                favs: {title: 'menu', item: 'code visualaid | searchreplace | emotions'}
+            },
+            menubar: 'favs file edit view insert format tools table',
+            content_style: 'body{font-family: Helvetics, Arial, sans-serif;font-size:16px}'
+            });
+    </script>*@
+</body>
+

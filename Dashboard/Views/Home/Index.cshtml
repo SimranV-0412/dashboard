@@ -1,0 +1,27 @@
+﻿@model Dashboard.Models.LoginModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post" asp-controller="Home" asp-action="Login">
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">Email address</label>
+        <input type="email" asp-for="Email" class="form-control"/>
+        @Html.ValidationMessageFor(m => m.Email)
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">Password</label>
+        <input type="Password" asp-for="Password" class="form-control"/>
+        @Html.ValidationMessageFor(m => m.Password)
+    </div>
+
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">LogIn</button>
+
+
+</form>
+

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PLfUpg6hYMuLMcDEX8MaGGn8suLWRw5t8sJ1ytugbstNUnVlFV16TGOFwA8P7aoCXH1d2sGAPuHpaCZY4cZfiQ==",
+  "success": true,
+  "projectFilePath": "D:\\Project_Dashboard\\Dashboard\\Dashboard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simranv\\.nuget\\packages\\editorjs\\1.0.1.10\\editorjs.1.0.1.10.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\markdig\\0.31.0\\markdig.0.31.0.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\tinymce\\6.4.2\\tinymce.6.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}
