@@ -7,10 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CKEditor" Version="3.6.4" />
     <PackageReference Include="EditorJS" Version="1.0.1.10" />
     <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
     <PackageReference Include="Markdig" Version="0.31.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="TinyMCE" Version="6.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\App_Data\" />
   </ItemGroup>
 
 </Project>

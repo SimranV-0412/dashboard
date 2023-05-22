@@ -5,50 +5,41 @@
 @{
     ViewData["Title"] = "Editor";
 }
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/js/ckeditor/ckeditor.js"></script>
+
 <body>
 
     <h3>Text Editor</h3>
+
     <br />
-    <form action="@Url.Action("Preview", "Home")" method="post">
-
-        <div class="form-outline mb-4">
-            <label class="form-label">Title</label>
-            <div>
-                <input type="text" asp-for="Title" name="Title" class="form-control" />
-                
+    @using (Html.BeginForm("Preview", "Home", FormMethod.Post))
+    {
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <br/>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
             </div>
         </div>
 
-        <div class="form-outline mb-4">
-            <label class="form-label">Content</label>
-            <div>
-                <textarea id ="Content" asp-for="Content" name="Content" class="form-control"></textarea>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Content, htmlAttributes: new { @class = "control-label col-md-2" })
+            <br/>
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Content, new { @id = "FullDescription", @class = "form-control", @rows = "200" })
+                @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
             </div>
         </div>
-        <input type="Submit" class="btn btn-primary" value="Create" />
-    </form>
-    
-    @*<script src="~/js/tinymce/tinymce.min.js"></script>
+        <br />
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+        
+    }
     <script>
-        tinymce.init({
-            selector: 'textarea#Content',
-            //mode: "textarea",
-            //theme: "modern",
-            width: 1000,
-            height: 300,
-            plugins:[
-                'advlist','autolink','link','image','lists','charmp','preview','anchor','pagebreak','searchreplace','wordcount',
-                'visualblocks','code','fullscreen','insertdatetime','media','table','emoticons','template','codesample'
-            ],
-            toolbar: 'undo rendo| styles | bold itelic underlines | alignleft aligncenter alignright alignjustify |'+
-            'bullist numlist outdent indent | link image | print preview media fullscreen |'+
-            'forecolor backcolor emoticons',
-            menu: {
-                favs: {title: 'menu', item: 'code visualaid | searchreplace | emotions'}
-            },
-            menubar: 'favs file edit view insert format tools table',
-            content_style: 'body{font-family: Helvetics, Arial, sans-serif;font-size:16px}'
-            });
-    </script>*@
+        CKEDITOR.replace("FullDescription");
+    </script>
 </body>
-

@@ -11,6 +11,13 @@ using System.Xml.Linq;
 using System;
 using Markdig;
 using Microsoft.AspNetCore.Hosting.Server;
+using System.Text;
+using System.Web;
+using System.Text.Json.Serialization;
+using Newtonsoft.Json;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Hosting;
+
 
 namespace Dashboard.Controllers
 {
@@ -24,6 +31,13 @@ namespace Dashboard.Controllers
             _logger = logger;
             _configuration = configuration;
         }
+        private readonly IWebHostEnvironment _webHostEnvironment;
+
+        public HomeController([FromServices] IWebHostEnvironment webHostEnvironment)
+        {
+            _webHostEnvironment = webHostEnvironment;
+        }
+
 
         public IActionResult Index()
         {
@@ -60,53 +74,32 @@ namespace Dashboard.Controllers
             }
         }
 
-        //    var user = config.GetSection("keys").Value;
-        //    return View(Editor);
-
-        //public ActionResult Preview(ContentModel model)
-        //{
-        //    string htmlContent = ProcessToHtml(model.Content);
-        //    ViewBag.HtmlContent = htmlContent;
-        //    return View("Preview");
-        //}
-
-
         [HttpPost]
         public IActionResult Preview(ContentModel model)
         {
-            string htmlContent = ProcessToHtml(model.Content);
-            // Generate a unique file name or use a specific naming convention
-            string fileName = model.Title + ".html";
+            if (!ModelState.IsValid)
+            {
+                Console.WriteLine("Invaild data");
+            }
+            else
+            {
+                //IEnumerable<ContentModel> obj = new List<ContentModel>();
+                // Generate a unique file name or use a specific naming convention
+                string fileName = model.Title.Replace(" ", "-") + ".html";
 
-            // Specify the path where the HTML file will be saved
-            string filePath = Path.Combine("D:/Project_Dashboard/Dashboard/bin/Debug/net6.0", fileName);
-            //Server.MapPath("~/GeneratedFiles/generated.html");
+                // Encode the HTML content as Base64
+                string encodedContent = Convert.ToBase64String(Encoding.UTF8.GetBytes(model.Content));
 
-            // Save the HTML content to the file
-            System.IO.File.WriteAllText(filePath, htmlContent);
-
-            // Optionally, you can pass the file path to the view for further processing or display
-            ViewBag.HtmlFilePath = filePath;
-
+                // Optionally, you can pass the file path to the view for further processing or display
+                ViewBag.HtmlFileName = fileName;
+                ViewBag.EncodedHtmlContent = encodedContent;
+                string jsonPath = Path.Combine(_webHostEnvironment.ContentRootPath, "App_Data", "Article.json");
+                string json = JsonConvert.SerializeObject(model);
+                System.IO.File.WriteAllText(jsonPath, json);
+                //return RedirectToAction("Index", "Home");
+            }
             return View("Preview");
         }
-        private string ProcessToHtml(string Content)
-        {
-            if (Content == null)
-            {
-                // Handle the case where content is null
-                return string.Empty;
-            }
-
-            // Perform the conversion logic
-            HtmlDocument doc = new HtmlDocument();
-            doc.LoadHtml(Content);
-
-            // Manipulate or sanitize the HTML content as needed
-
-            return doc.DocumentNode.OuterHtml;
-        }
-
         public IActionResult Preview()
         {
             return View();

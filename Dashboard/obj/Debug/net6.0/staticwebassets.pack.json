@@ -1,963 +1,2027 @@
 {
   "Files": [
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Dashboard.bundle.scp.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Dashboard.bundle.scp.css",
       "PackagePath": "staticwebassets\\Dashboard.bundle.scp.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\css\\site.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\App_Data\\Article.json",
+      "PackagePath": "staticwebassets\\App_Data\\Article.json"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\favicon.ico",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\site.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\CHANGES.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\CHANGES.md"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\README.md"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\SECURITY.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\SECURITY.md"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\adapters\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\adapters\\jquery.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\bender-runner.config.json",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\bender-runner.config.json"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\build-config.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build-config.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\config.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\config.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\contents.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\contents.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\af.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\af.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ar.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\az.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\az.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\bn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\bn.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\bs.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\bs.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ca.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\da.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\de-ch.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\de.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\el.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\en-au.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\en-ca.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\en-gb.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\en.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\es-mx.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\es.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\es.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\et.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\eu.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\fo.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\gl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\gu.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\he.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\hi.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\hu.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\id.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\id.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\is.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\is.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\it.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ja.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ka.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ka.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\km.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\km.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ko.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ku.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\lt.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\lv.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\mk.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\mn.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ms.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ms.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\no.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\oc.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\pt.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ro.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ru.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\si.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\si.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\sk.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\sl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\sq.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\sr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\sv.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\th.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\th.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\tt.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\lang\\zh.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\about\\dialogs\\about.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\about\\dialogs\\about.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\dialog\\dialogDefinition.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\dialog\\dialogDefinition.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\dialog\\styles\\dialog.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\dialog\\styles\\dialog.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\icons.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\icons.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\icons_hidpi.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\image\\dialogs\\image.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\image\\dialogs\\image.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\image\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\image\\images\\noimage.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\link\\dialogs\\anchor.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\link\\dialogs\\anchor.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\link\\dialogs\\link.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\link\\dialogs\\link.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\link\\images\\anchor.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\link\\images\\anchor.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\magicline\\images\\icon.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\magicline\\images\\icon.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\pastefromword\\filter\\default.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\pastefromword\\filter\\default.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\pastetools\\filter\\common.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\pastetools\\filter\\common.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\pastetools\\filter\\image.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\pastetools\\filter\\image.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\scayt\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\scayt\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\scayt\\LICENSE.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\scayt\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\scayt\\README.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\scayt\\README.md"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\scayt\\dialogs\\options.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\scayt\\dialogs\\options.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\table\\dialogs\\table.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\table\\dialogs\\table.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\plugins\\widget\\images\\handle.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\plugins\\widget\\images\\handle.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\css\\samples.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\css\\samples.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\img\\github-top.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\img\\github-top.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\img\\header-bg.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\img\\header-bg.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\img\\header-separator.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\img\\header-separator.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\img\\logo.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\img\\logo.svg"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\img\\navigation-tip.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\img\\navigation-tip.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\index.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\index.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\js\\sample.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\js\\sample.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\js\\sf.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\js\\sf.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\ajax.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\ajax.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\api.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\api.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\appendto.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\appendto.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\assets\\posteddata.php",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\assets\\posteddata.php"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\assets\\sample.jpg",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\assets\\sample.jpg"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\datafiltering.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\datafiltering.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\dialog\\dialog.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\dialog\\dialog.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\divreplace.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\divreplace.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\enterkey\\enterkey.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\enterkey\\enterkey.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\index.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\index.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\inlineall.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\inlineall.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\inlinebycode.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\inlinebycode.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\inlinetextarea.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\inlinetextarea.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\jquery.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\jquery.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\magicline\\magicline.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\magicline\\magicline.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\readonly.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\readonly.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\replacebyclass.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\replacebyclass.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\replacebycode.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\replacebycode.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\sample.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\sample.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\sample.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\sample.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\sample_posteddata.php",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\sample_posteddata.php"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\tabindex.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\tabindex.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\toolbar\\toolbar.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\toolbar\\toolbar.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\uicolor.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\uicolor.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\uilanguages.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\uilanguages.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\old\\xhtmlstyle.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\old\\xhtmlstyle.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\index.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\index.html"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\LICENSE",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\dialog.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\dialog.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\dialog_ie.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\dialog_ie.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\editor.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\editor.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\editor_gecko.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\editor_gecko.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\editor_ie.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\editor_ie.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\editor_ie8.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\editor_ie8.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\icons.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\icons.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\arrow.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\close.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\close.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\lock.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\lock.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\refresh.png",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\refresh.png"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\skins\\moono-lisa\\readme.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\skins\\moono-lisa\\readme.md"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\styles.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\styles.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\vendor\\promise.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\vendor\\promise.js"
+    },
+    {
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\icons\\default\\icons.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\icons\\default\\icons.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\langs\\README.md",
-      "PackagePath": "staticwebassets\\js\\tinymce\\langs\\README.md"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\license.txt",
-      "PackagePath": "staticwebassets\\js\\tinymce\\license.txt"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\models\\dom\\model.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\models\\dom\\model.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\advlist\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\advlist\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\anchor\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\anchor\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\autolink\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autolink\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\autoresize\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autoresize\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\autosave\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autosave\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\charmap\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\charmap\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\code\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\code\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\codesample\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\codesample\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\directionality\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\directionality\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\emoticons\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\help\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\help\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\image\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\image\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\importcss\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\importcss\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\link\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\link\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\lists\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\lists\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\media\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\media\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\preview\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\preview\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\quickbars\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\quickbars\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\save\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\save\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\table\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\table\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\template\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\template\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\visualchars\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\visualchars\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\plugins\\wordcount\\plugin.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\wordcount\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\content\\dark\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\dark\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\content\\default\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\default\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\content\\document\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\document\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\content\\writer\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\writer\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
-      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\themes\\silver\\theme.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\themes\\silver\\theme.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\tinymce.d.ts",
-      "PackagePath": "staticwebassets\\js\\tinymce\\tinymce.d.ts"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\js\\tinymce\\tinymce.min.js",
-      "PackagePath": "staticwebassets\\js\\tinymce\\tinymce.min.js"
-    },
-    {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\icons\\default\\icons.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\icons\\default\\icons.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\icons\\default\\icons.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\icons\\default\\icons.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\icons\\default\\icons.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\icons\\default\\icons.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\langs\\README.md",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\langs\\README.md",
       "PackagePath": "staticwebassets\\lib\\tinymce\\langs\\README.md"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\license.txt",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\license.txt",
       "PackagePath": "staticwebassets\\lib\\tinymce\\license.txt"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\models\\dom\\model.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\models\\dom\\model.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\models\\dom\\model.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\models\\dom\\model.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\models\\dom\\model.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\models\\dom\\model.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\advlist\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\advlist\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\anchor\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\anchor\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autolink\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autolink\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autoresize\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autosave\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autosave\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\charmap\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\charmap\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\code\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\code\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\directionality\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\directionality\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullscreen\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\image\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\image\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\importcss\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\importcss\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\link\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\link\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\lists\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\lists\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\media\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\media\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\pagebreak\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\preview\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\preview\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\quickbars\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\quickbars\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\quickbars\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\quickbars\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\quickbars\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\save\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\save\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\searchreplace\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\table\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\table\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\template\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\template\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualchars\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\wordcount\\plugin.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\dark\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\dark\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\dark\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\dark\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\dark\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\dark\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\default\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\default\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\default\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\default\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\default\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\default\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\document\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\document\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\document\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\document\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\document\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\document\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\writer\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\writer\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\writer\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\writer\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\content\\writer\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\writer\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
       "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\themes\\silver\\theme.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\themes\\silver\\theme.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\silver\\theme.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\themes\\silver\\theme.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\themes\\silver\\theme.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\silver\\theme.min.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\tinymce.d.ts",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\tinymce.d.ts",
       "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.d.ts"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\tinymce.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\tinymce.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.js"
     },
     {
-      "Id": "D:\\Project_Dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\tinymce.min.js",
+      "Id": "D:\\ASP_net_mvc\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\tinymce.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.min.js"
     },
     {
