@@ -19,4 +19,10 @@
     <Folder Include="wwwroot\App_Data\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\App_Data\Article.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
