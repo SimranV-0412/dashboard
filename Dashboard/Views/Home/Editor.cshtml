@@ -16,7 +16,7 @@
     <h3>Text Editor</h3>
 
     <br />
-    @using (Html.BeginForm("Preview", "Home", FormMethod.Post))
+    @using (Html.BeginForm("PostPreview", "Home", FormMethod.Post))
     {
         <div class="form-group">
             @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })

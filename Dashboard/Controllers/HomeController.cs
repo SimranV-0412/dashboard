@@ -29,71 +29,30 @@ namespace Dashboard.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IConfiguration _configuration; 
+        private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _webHostEnvironment;
-
         public HomeController(ILogger<HomeController> logger, IConfiguration configuration, IWebHostEnvironment webHostEnvironment)
         {
             _logger = logger;
             _configuration = configuration;
             _webHostEnvironment = webHostEnvironment;
         }
-       
         public IActionResult Index()
         {
             return View();
         }
-
         public IActionResult Editor()
         {
             return View();
         }
-        public IActionResult Preview()
-        {
-            return View();
-        }
+        //public IActionResult Preview()
+        //{
+        //    return View();
+        //}
         public IActionResult Delete()
         {
             return View();
         }
-        /// <summary>
-        /// Delete data in json file using id
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        [HttpPost]
-        public IActionResult Delete(Guid id)
-        {
-            try
-            {
-                string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
-                List<ArticleModel> articles = new List<ArticleModel>();
-
-                if (System.IO.File.Exists(jsonFilePath))
-                {
-                    string existingJson = System.IO.File.ReadAllText(jsonFilePath);
-                    articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson) ?? new();
-                }
-
-                // Find the article with the given ID
-                ArticleModel articleToDelete = articles.FirstOrDefault(a => a.Id == id);
-                if (articleToDelete != null)
-                {
-                    articles.Remove(articleToDelete);
-
-                    // Save the updated list to the JSON file
-                    string updatedJson = JsonConvert.SerializeObject(articles);
-                    System.IO.File.WriteAllText(jsonFilePath, updatedJson);
-                }
-
-                return RedirectToAction("Preview");
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex);
-            }
-        }
-
         /// <summary>
         /// Admin Login
         /// </summary>
@@ -126,78 +85,160 @@ namespace Dashboard.Controllers
                     return View(model);
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest(ex);
             }
         }
+        [HttpGet]
+        public IActionResult Preview()
+        {
+            try
+            {
+                // JSON file path
+                string jsonFilePath = Path.Combine(_webHostEnvironment.WebRootPath, "App_Data", "Article.json");
+                List<ArticleModel> articles = new();
+                if (System.IO.File.Exists(jsonFilePath))
+                {
+                    string jsonContent = System.IO.File.ReadAllText(jsonFilePath);
+                    articles = JsonConvert.DeserializeObject<List<ArticleModel>>(jsonContent) ?? new List<ArticleModel>();
+
+                }
+                return View(articles);
+
+                //return NotFound(); // JSON file not found
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
         /// <summary>
         /// Post ContentModel properties in the Json file using ArticleModel
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Preview(ContentModel model)
+        public IActionResult PostPreview(ContentModel model)
         {
             try
             {
+                    List<ArticleModel> articles = new List<ArticleModel>();
+                    List<ArticleModel> Getarticles = new List<ArticleModel>();
+              
                 if (!ModelState.IsValid)
                 {
-                    Console.WriteLine("Invaild data");
+                    Console.WriteLine("Invalid data");
                 }
                 else
                 {
-                    //Generate a unique id
+                    // Generate a unique id
                     model.Id = Guid.NewGuid();
 
-                    // Generate a unique file name or use a specific naming convention
-                    string fileName = model.Title.Replace(" ", "-") + ".html";
+                    // Generate a unique file name using title and timestamp
+                    string timestamp = DateTime.Now.ToString("yyyyMMddHHmmss");
+                    string fileName = $"{model.Title.Replace(" ", "-").Replace("+", "-Plus").Replace("#", "-Sharp").Replace(".", "-Dot").Replace("$", "-Dollar")}.html";
 
+                    // Generate the complete HTML source code
+                    string htmlSourceCode = $@"
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{model.Title}</title>
+</head>
+<body>
+    {model.Content}
+</body>
+</html>";
                     // Encode the HTML content as Base64
                     string encodedContent = Convert.ToBase64String(Encoding.UTF8.GetBytes(model.Content));
-                    
-                    //JSON file path
-                    string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
-                    List<ArticleModel> articles = new List<ArticleModel>();
 
+                    // Save the HTML source code to the specified path
+                    string sourceCodePath = Path.Combine(_webHostEnvironment.WebRootPath, "SourceCode", fileName);
+                    System.IO.File.WriteAllText(sourceCodePath, htmlSourceCode);
+
+                    // JSON file path
+                    string jsonFilePath = Path.Combine(_webHostEnvironment.WebRootPath, "App_Data", "Article.json");
                     if (System.IO.File.Exists(jsonFilePath))
                     {
                         string existingJson = System.IO.File.ReadAllText(jsonFilePath);
-                        articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson)??new();
+                        articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson) ?? new();
                     }
 
                     ArticleModel newArticle = new ArticleModel
                     {
                         Id = model.Id,
                         Title = model.Title,
-                        Content = model.Content,
+                        //Content = model.Content,
                         Link = fileName
-
                     };
 
                     articles.Add(newArticle);
 
                     string updatedJson = JsonConvert.SerializeObject(articles);
-                    System.IO.File.WriteAllText(jsonFilePath, updatedJson);
+                    Getarticles = JsonConvert.DeserializeObject<List<ArticleModel>>(updatedJson);
+                    //System.IO.File.WriteAllText(jsonFilePath, updatedJson);
 
-                    //Get Data from json
+                    //Get Data from JSON
 
-                    ViewBag.HtmlFileName = fileName;
-                    ViewBag.EncodedHtmlContent = encodedContent;
-                    return View("Preview", articles);
+                    //ViewBag.HtmlFileName = fileName;
+                    //ViewBag.EncodedHtmlContent = encodedContent;
                 }
-                return Ok();
+                    return RedirectToPage("Preview", Getarticles);
+                    //return View("Preview", Getarticles);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
-        catch(Exception ex)
-        {
-             return BadRequest(ex);
-        }
-    }
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
-        
+
     }
 }
+
+//        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+//    public IActionResult Error()
+//    {
+//        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+//    }
+        
+//    }
+//}
+        /// <summary>
+        /// Delete data in json file using id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        //[HttpPost]
+        //public IActionResult Delete(Guid id)
+        //{
+        //    try
+        //    {
+        //        string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
+        //        List<ArticleModel> articles = new List<ArticleModel>();
+
+        //        if (System.IO.File.Exists(jsonFilePath))
+        //        {
+        //            string existingJson = System.IO.File.ReadAllText(jsonFilePath);
+        //            articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson) ?? new();
+        //        }
+
+        //        // Find the article with the given ID
+        //        ArticleModel articleToDelete = articles.FirstOrDefault(a => a.Id == id);
+        //        if (articleToDelete != null)
+        //        {
+        //            articles.Remove(articleToDelete);
+
+        //            // Save the updated list to the JSON file
+        //            string updatedJson = JsonConvert.SerializeObject(articles);
+        //            System.IO.File.WriteAllText(jsonFilePath, updatedJson);
+        //        }
+
+        //        return RedirectToAction("Preview");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return BadRequest(ex);
+        //    }
+        //}

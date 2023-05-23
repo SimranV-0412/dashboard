@@ -1,4 +1,25 @@
-﻿@model List<Dashboard.Models.ArticleModel>
+﻿@using Dashboard.Controllers;
+@*@model List<ArticleModel>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.Title</td>
+                <td>@article.Link</td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+@model List<Dashboard.Models.ArticleModel>
 @{
     
     ViewData["Title"] = "Preview page";
@@ -111,8 +132,8 @@
                             <button type="button" class="btn btn-success">Update</button>
                         </td> 
                         <td>
-                            @*<button type="submit" class="btn btn-danger" asp-action="Delete">Delete</button>*@
-                            <a href="@Url.Action("Delete", "Preview")" class="btn btn-danger">Delete</a>
+                            <button type="submit" class="btn btn-danger" asp-action="Delete">Delete</button>*
+                            @*<a href="@Url.Action("Delete", "Preview")" class="btn btn-danger">Delete</a>*@
                         </td>
                     </tr>
                 }
@@ -120,3 +141,5 @@
         </table>
     </div>
 </section>
+
+@*<a href="data:text/html;charset=utf-8;base64,@ViewBag.EncodedHtmlContent" target="_blank">@ViewBag.HtmlFileName</a>*@

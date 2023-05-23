@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\App_Data\" />
+    <Folder Include="wwwroot\SourceCode\" />
   </ItemGroup>
 
   <ItemGroup>
