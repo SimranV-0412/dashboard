@@ -1,24 +1,4 @@
 ﻿@using Dashboard.Controllers;
-@*@model List<ArticleModel>
-
-<table>
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Link</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var article in Model)
-        {
-            <tr>
-                <td>@article.Title</td>
-                <td>@article.Link</td>
-            </tr>
-        }
-    </tbody>
-</table>*@
-
 @model List<Dashboard.Models.ArticleModel>
 @{
     
@@ -125,15 +105,18 @@
                         <!-- Display Tittle -->
                         <td>@item.Title</td>
                         <!-- Display the clickable link with the file name -->
-                        <td>
-                            <a href="data:text/html;charset=utf-8;base64,@ViewBag.EncodedHtmlContent" target="_blank">@ViewBag.HtmlFileName</a>
+                        <td> 
+                            <a href="~/SourceCode/@item.Link" target="_blank">@item.Link</a>
                         </td>
+                        <!-- Display the clickable button for update json file data -->
                         <td>
-                            <button type="button" class="btn btn-success">Update</button>
-                        </td> 
+                            @*<button type="button" class="btn btn-success">Update</button>*@
+                            <a href="@Url.Action("UpdatedEditor", "Home", new { fileName = item.Link })" class="btn btn-success">Update</a>
+                        </td>
+                        <!-- Display the clickable button of delete data from json file using unique ID -->
                         <td>
-                            <button type="submit" class="btn btn-danger" asp-action="Delete">Delete</button>*
-                            @*<a href="@Url.Action("Delete", "Preview")" class="btn btn-danger">Delete</a>*@
+                           @* <button type="submit" class="btn btn-danger" asp-action="Delete">Delete</button>*@
+                            <a href="@Url.Action("Delete", "Home",new { id = item.Id })" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
                 }
@@ -141,5 +124,3 @@
         </table>
     </div>
 </section>
-
-@*<a href="data:text/html;charset=utf-8;base64,@ViewBag.EncodedHtmlContent" target="_blank">@ViewBag.HtmlFileName</a>*@

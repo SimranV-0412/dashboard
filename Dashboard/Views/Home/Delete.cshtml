@@ -1,13 +1,4 @@
-﻿
-@*@model List<Dashboard.Models.ArticleModel>
-@foreach (ArticleModel item in Model)
-{
-    <form method="post" action="@Url.Action("Delete", "Preview")">
-        <input type="hidden" name="id" value="@item.Id" />
-        <button type="submit" class="btn btn-danger">Delete</button>
-    </form>
-}*@
-
+﻿@using Dashboard.Controllers;
 @model Dashboard.Models.ArticleModel
 
 @{
@@ -17,8 +8,8 @@
 <h1>Delete Article</h1>
 
 <p>Are you sure you want to delete the article with ID: @Model.Id and Title: @Model.Title?</p>
-
-<form method="post" action="@Url.Action("Delete", "Preview")">
-    <input type="hidden" name="id" value="@Model.Id" />
+@using (Html.BeginForm("PostDelete", "Home", FormMethod.Post))
+{
+    <input type="hidden" name="id" value="@Model" />
     <button type="submit" class="btn btn-danger">Confirm Delete</button>
-</form>
+}

@@ -103,3 +103,39 @@ D:\manish sir project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.pdb
 D:\manish sir project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.genruntimeconfig.cache
 D:\manish sir project\dashboard\Dashboard\obj\Debug\net6.0\ref\Dashboard.dll
 D:\manish sir project\dashboard\Dashboard\bin\Debug\net6.0\wwwroot\App_Data\Article.json
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\wwwroot\App_Data\Article.json
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\appsettings.Development.json
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\appsettings.json
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Dashboard.staticwebassets.runtime.json
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Dashboard.exe
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Dashboard.deps.json
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Dashboard.runtimeconfig.json
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Dashboard.dll
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Dashboard.pdb
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\HtmlAgilityPack.dll
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Markdig.dll
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.csproj.AssemblyReference.cache
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.GeneratedMSBuildEditorConfig.editorconfig
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.AssemblyInfoInputs.cache
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.AssemblyInfo.cs
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.csproj.CoreCompileInputs.cache
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.MvcApplicationPartsAssemblyInfo.cache
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.RazorAssemblyInfo.cache
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.RazorAssemblyInfo.cs
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\staticwebassets\msbuild.Dashboard.Microsoft.AspNetCore.StaticWebAssets.props
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\staticwebassets\msbuild.build.Dashboard.props
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Dashboard.props
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Dashboard.props
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\staticwebassets.pack.json
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\staticwebassets.build.json
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\staticwebassets.development.json
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\scopedcss\bundle\Dashboard.styles.css
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\scopedcss\projectbundle\Dashboard.bundle.scp.css
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.csproj.CopyComplete
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.dll
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\refint\Dashboard.dll
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.pdb
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.genruntimeconfig.cache
+D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\ref\Dashboard.dll

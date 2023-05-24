@@ -847,11 +847,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\manish sir project\\dashboard\\Dashboard\\Dashboard.csproj",
+      "projectUniqueName": "D:\\M_project\\dashboard\\Dashboard\\Dashboard.csproj",
       "projectName": "Dashboard",
-      "projectPath": "D:\\manish sir project\\dashboard\\Dashboard\\Dashboard.csproj",
+      "projectPath": "D:\\M_project\\dashboard\\Dashboard\\Dashboard.csproj",
       "packagesPath": "C:\\Users\\simranv\\.nuget\\packages\\",
-      "outputPath": "D:\\manish sir project\\dashboard\\Dashboard\\obj\\",
+      "outputPath": "D:\\M_project\\dashboard\\Dashboard\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\simranv\\AppData\\Roaming\\NuGet\\NuGet.Config",

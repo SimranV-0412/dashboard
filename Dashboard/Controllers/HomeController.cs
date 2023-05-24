@@ -45,20 +45,12 @@ namespace Dashboard.Controllers
         {
             return View();
         }
-        //public IActionResult Preview()
-        //{
-        //    return View();
-        //}
-        public IActionResult Delete()
-        {
-            return View();
-        }
         /// <summary>
         /// Admin Login
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        [HttpPost]
+        [HttpPost] 
         public async Task<IActionResult> Login(LoginModel model)
         {
             try
@@ -90,6 +82,10 @@ namespace Dashboard.Controllers
                 return BadRequest(ex);
             }
         }
+        /// <summary>
+        /// Getting data in preview
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Preview()
         {
@@ -178,14 +174,14 @@ namespace Dashboard.Controllers
 
                     string updatedJson = JsonConvert.SerializeObject(articles);
                     Getarticles = JsonConvert.DeserializeObject<List<ArticleModel>>(updatedJson);
-                    //System.IO.File.WriteAllText(jsonFilePath, updatedJson);
+                    System.IO.File.WriteAllText(jsonFilePath, updatedJson);
 
                     //Get Data from JSON
 
                     //ViewBag.HtmlFileName = fileName;
                     //ViewBag.EncodedHtmlContent = encodedContent;
                 }
-                    return RedirectToPage("Preview", Getarticles);
+                    return RedirectToAction("Preview", Getarticles);
                     //return View("Preview", Getarticles);
             }
             catch (Exception ex)
@@ -193,52 +189,126 @@ namespace Dashboard.Controllers
                 return BadRequest(ex);
             }
         }
-
-    }
-}
-
-//        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-//    public IActionResult Error()
-//    {
-//        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-//    }
-        
-//    }
-//}
         /// <summary>
-        /// Delete data in json file using id
+        /// Delete Data from JSON file using ID
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        //[HttpPost]
-        //public IActionResult Delete(Guid id)
+        [HttpPost]
+        public IActionResult PostDelete(Guid id)
+        {
+            List<ArticleModel> articles = new List<ArticleModel>();
+            try
+            {
+                string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
+
+                if (System.IO.File.Exists(jsonFilePath))
+                {
+                    string existingJson = System.IO.File.ReadAllText(jsonFilePath);
+                    articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson) ?? new();
+                }
+
+                ArticleModel articleToDelete = articles.FirstOrDefault(a => a.Id == id);
+                if (articleToDelete != null)
+                {
+                    articles.Remove(articleToDelete);
+                }
+
+                // Save the updated list to the JSON file
+                string updatedJson = JsonConvert.SerializeObject(articles);
+                System.IO.File.WriteAllText(jsonFilePath, updatedJson);
+                
+                return RedirectToAction("Preview");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+        /// <summary>
+        /// Getting data from delete page
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult Delete(Guid id)
+        {
+            List<ArticleModel> articles = new List<ArticleModel>();
+            try
+            {
+                string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
+
+                if (System.IO.File.Exists(jsonFilePath))
+                {
+                    string existingJson = System.IO.File.ReadAllText(jsonFilePath);
+                    articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson) ?? new();
+                }
+
+                // Find the article with the given ID
+                ArticleModel articleToDelete = articles.FirstOrDefault(a => a.Id == id);
+                if (articleToDelete != null)
+                {
+                    
+                    return View(articleToDelete);
+                }
+
+                return RedirectToAction("Preview");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+        /// <summary>
+        /// Getting file name which one we want to update
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult UpdatedEditor(string fileName)
+        {
+            string htmlFilesPath = Path.Combine("D:/M_project/dashboard/Dashboard/wwwroot/SourceCode/");
+            // Load the HTML file content into the Editor
+            string filePath = Path.Combine(htmlFilesPath, fileName);
+            string title = Path.GetFileNameWithoutExtension(filePath);
+            string content = System.IO.File.ReadAllText(filePath);
+            var model = new ContentModel { Title = title, Content = content };
+            return View(model);
+        }
+        /// <summary>
+        /// posted updated content on html file
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public IActionResult UpdateHTML(ContentModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                string htmlFilesPath = Path.Combine("D:/M_project/dashboard/Dashboard/wwwroot/SourceCode/");
+                // Save the updated HTML content to the file
+                string filePath = Path.Combine(htmlFilesPath, $"{model.Title}.html");
+                System.IO.File.WriteAllText(filePath, model.Content);
+                return RedirectToAction("Preview");
+            }
+
+            // If the model is not valid, return back to the Editor with the model data
+            return View("Editor", model);
+        }
+
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+    }
+}
+        //private void SaveArticlesToJson(List<ArticleModel> articles)
         //{
-        //    try
-        //    {
-        //        string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
-        //        List<ArticleModel> articles = new List<ArticleModel>();
-
-        //        if (System.IO.File.Exists(jsonFilePath))
-        //        {
-        //            string existingJson = System.IO.File.ReadAllText(jsonFilePath);
-        //            articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson) ?? new();
-        //        }
-
-        //        // Find the article with the given ID
-        //        ArticleModel articleToDelete = articles.FirstOrDefault(a => a.Id == id);
-        //        if (articleToDelete != null)
-        //        {
-        //            articles.Remove(articleToDelete);
-
-        //            // Save the updated list to the JSON file
-        //            string updatedJson = JsonConvert.SerializeObject(articles);
-        //            System.IO.File.WriteAllText(jsonFilePath, updatedJson);
-        //        }
-
-        //        return RedirectToAction("Preview");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest(ex);
-        //    }
+        //    string jsonFilesPath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
+        //    string filePath = Path.Combine(jsonFilesPath, "articles.json");
+        //    string json = JsonConvert.SerializeObject(articles);
+        //    System.IO.File.WriteAllText(filePath, json);
         //}
