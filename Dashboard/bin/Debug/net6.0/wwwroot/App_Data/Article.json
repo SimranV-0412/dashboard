@@ -1,123 +1,8 @@
 [
   {
-    "Id": "edfa03b1-02ec-419f-9893-b84b18ee7746",
-    "Title": "simran verma",
-    "Link": "simran-verma.html"
-  },
-  {
-    "Id": "b943c7ab-4d9c-4607-a620-4e6deebc1485",
-    "Title": "ggfh hjju",
-    "Link": "ggfh-hjju.html"
-  },
-  {
-    "Id": "e5d0274b-7865-475d-b6b9-25bba313576f",
-    "Title": "ggfh hjju",
-    "Link": "ggfh-hjju.html"
-  },
-  {
-    "Id": "00cdeb1e-0a31-4779-9ac0-c4815037b63b",
-    "Title": "ggfh hjju",
-    "Link": "ggfh-hjju.html"
-  },
-  {
-    "Id": "b442ec72-d829-4ab4-80fe-1eb122126dca",
-    "Title": "ggfh hjju",
-    "Link": "ggfh-hjju.html"
-  },
-  {
-    "Id": "6cfee9e4-0c20-4cb3-9f71-459ae8d7691d",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "ee0c8f97-0499-4527-97a5-6c0216b2407b",
-    "Title": "ggfh hjju",
-    "Link": "ggfh-hjju.html"
-  },
-  {
-    "Id": "e65b8c6f-36fc-4cbf-bbb0-0ce1a9a5f71d",
-    "Title": "ggfh hjju",
-    "Link": "ggfh-hjju.html"
-  },
-  {
-    "Id": "8b6dcffc-2aab-40e2-9a3b-e00e9a908df0",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "f218544d-3573-4089-95e6-fdde6b1637ce",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "b24bfbd0-3426-43b9-b5b9-2671eacf0309",
-    "Title": "ggfh hjju",
-    "Link": "ggfh-hjju.html"
-  },
-  {
-    "Id": "07589ca2-7329-484b-ad18-31df70189bcf",
-    "Title": "ggfh hjju",
-    "Link": "ggfh-hjju.html"
-  },
-  {
-    "Id": "b9dd8ced-d068-4e7c-ad60-5ba6f1ef3c6e",
-    "Title": "ghtryrty",
-    "Link": "ghtryrty.html"
-  },
-  {
-    "Id": "61b27389-3d98-4614-9864-d888b8255204",
-    "Title": "ghfghyghjuy gfghj",
-    "Link": "ghfghyghjuy-gfghj.html"
-  },
-  {
-    "Id": "f6b94a11-ddb4-49af-8b5e-b4d9873ccb59",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "a91d4384-93a6-4302-9bdc-a0bd24f991e7",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "62ac9849-af0d-41c4-aa75-8a4d242d8b8c",
-    "Title": "Intro of c",
-    "Link": "Intro-of-c.html"
-  },
-  {
-    "Id": "319b2cc2-09c2-4f58-8eb0-0e41f9498028",
-    "Title": "Intro of c++",
-    "Link": "Intro-of-cPlusPlus.html"
-  },
-  {
-    "Id": "f680e87a-73b2-4770-9c71-b6d7a9307425",
-    "Title": "Intro of JAVA",
-    "Link": "Intro-of-JAVA.html"
-  },
-  {
-    "Id": "04575d0a-3495-48c7-8562-bbd8b2d4dfc2",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "4b731c3d-bb19-4845-b478-88ae24a27f24",
-    "Title": "system design",
-    "Link": "system-design.html"
-  },
-  {
-    "Id": "017360bd-f970-4e25-8fec-c006161a8db6",
-    "Title": "rerebgbg hgygj",
-    "Link": "rerebgbg-hgygj.html"
-  },
-  {
     "Id": "3dbcd2db-3ddf-4ecf-a818-42ba9b5d7a44",
     "Title": "web development",
     "Link": "web-development.html"
-  },
-  {
-    "Id": "18ae3953-cb76-453c-abc5-3f68c028b04f",
-    "Title": "Intro of HTML",
-    "Link": "Intro-of-HTML.html"
   },
   {
     "Id": "2ba27894-9622-48ba-8314-59a6bfffd5fd",
@@ -130,204 +15,9 @@
     "Link": "method-in-C-Sharp.html"
   },
   {
-    "Id": "146d1795-56b7-43e9-9e81-17bc4a897d13",
-    "Title": "new delhi",
-    "Link": "new-delhi.html"
-  },
-  {
-    "Id": "0cb5ca0d-bc35-4e33-81f8-1bf602026667",
-    "Title": "a b",
-    "Link": "a-b.html"
-  },
-  {
-    "Id": "2b65534f-40a6-476c-9c61-309f18060421",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "330d3e03-d717-4a4a-9660-647a04eb0713",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "f529ce1e-8b6f-48ce-bb4c-8daec6bdcc72",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "ed4452a2-ba31-48b9-9cab-95f87cb9569f",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "98211889-e969-4d90-aeb2-951b35d04584",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "1730aab1-9605-4b50-bb38-8138ec2c0c35",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "0970c821-12aa-4d9a-8ad9-70ecc9b9008e",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "2cc6f49f-fe40-4bdb-83d3-68263dafdb25",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "9a5ab577-f4f5-4150-af35-8ee7bf1d904a",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "bf1569fe-f997-4fe1-8bb4-a257b789d216",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "22270d41-05d4-4ec9-b36b-f496c85a2f30",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "3119fdc7-9f6a-41b7-9fc8-1dc277fc01eb",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "419ebb4f-a118-4366-a4fc-0c498cd2db1e",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "5b5613a2-82c5-408e-a056-f3fe8f904ae4",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "bc8b81c4-652c-4628-9608-cd32ad96a194",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "705777e0-33b0-4c41-a66b-b7feccd5fbfe",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "60f3c694-a83e-45fd-85dc-6798b13dd46e",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "4da22346-4564-48b1-bf1e-91e6196daa99",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "256ee9d9-eaf7-41ae-b116-73e78dba054f",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "3f8e567a-5e7a-40e6-9007-9eeefb90da85",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "ee57a20b-5091-40f1-be45-24f5976f8aa2",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "81d38f24-781c-4e3e-ab2c-5d60c7339544",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "599835fa-12fd-4847-a24c-c67688ed99b4",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "8767f8ab-a1cd-4932-8ed7-ae260a3eed11",
-    "Title": "Title",
-    "Link": "Title.html"
-  },
-  {
-    "Id": "6d2c818f-dd91-417f-b04e-8330a6daa2fd",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "d7bad9ff-f13b-4a2f-b1cc-359b6c7aa193",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "b977fa54-87ed-4de2-ad11-c860841fb491",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "f914005c-c848-485f-aaa1-549c7ca536c5",
-    "Title": "simran",
-    "Link": "simran.html"
-  },
-  {
-    "Id": "38d9bc47-cb95-47c0-b7c9-1145efe8b1ec",
-    "Title": "Text Editor",
-    "Link": "Text-Editor.html"
-  },
-  {
-    "Id": "672738a0-dc17-4ffe-b319-5b7c6ff43c5d",
-    "Title": "Intro od ASP.NET",
-    "Link": "Intro-od-ASP-DotNET.html"
-  },
-  {
     "Id": "5187d503-65ec-4095-b875-8d636c712d02",
     "Title": "framework of .NET",
     "Link": "framework-of--DotNET.html"
-  },
-  {
-    "Id": "0871dc80-43d6-4e0e-8112-91c8c734c59e",
-    "Title": "this is .net",
-    "Link": "this-is--Dotnet.html"
-  },
-  {
-    "Id": "7c4905df-54bd-4658-8fc0-9c8e9c530c49",
-    "Title": "Text Editor12",
-    "Link": "Text-Editor12.html"
-  },
-  {
-    "Id": "62594962-bf7c-4099-b30b-4b9936cbb017",
-    "Title": "Text Editor12",
-    "Link": "Text-Editor12.html"
-  },
-  {
-    "Id": "5332d046-35c8-43d0-b039-8adc35b20935",
-    "Title": "Text Editor15",
-    "Link": "Text-Editor15.html"
-  },
-  {
-    "Id": "dedfec10-a930-405e-b655-bb661e9daaea",
-    "Title": "Text Editor16",
-    "Link": "Text-Editor16.html"
-  },
-  {
-    "Id": "79b68891-09b3-4e53-9567-c4b9145c9d5c",
-    "Title": "Text Editor17",
-    "Link": "Text-Editor17.html"
-  },
-  {
-    "Id": "50401259-ace7-4639-814e-cc0849748fcb",
-    "Title": "simran",
-    "Link": "simran.html"
   },
   {
     "Id": "86e19e05-897f-4763-9bb1-5397879c4123",
@@ -338,6 +28,16 @@
     "Id": "33f27261-e733-48f9-a4d4-64f0733eb980",
     "Title": "properties of mysql",
     "Link": "properties-of-mysql.html"
+  },
+  {
+    "Id": "51e7a5c2-9e70-47f5-b618-70c6be0f360e",
+    "Title": "this is web page of c#",
+    "Link": "this-is-web-page-of-c-Sharp.html"
+  },
+  {
+    "Id": "ad0e9392-543b-4ac9-9f68-20e17f92e278",
+    "Title": "my web page",
+    "Link": "my-web-page.html"
   }
 
 ]

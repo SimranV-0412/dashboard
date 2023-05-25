@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rH/4WJsD35hKXQ7W1R5tAXXp+KV962OoPrJVd0POLxqDzri9zZ4HcjxeOmdhwBiUJWOp3Sw7Ji79EPaue4ySZw==",
+  "dgSpecHash": "Qbch1h6Ehzvv0wE/LSBIPxV4UQ4rgfUiyt2EjHq8vWGomkmFszMIJXnGJYj+Cd/NJQurq3HVW6YGC2rY+tL+IQ==",
   "success": true,
   "projectFilePath": "D:\\M_project\\dashboard\\Dashboard\\Dashboard.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,20 @@
     "C:\\Users\\simranv\\.nuget\\packages\\editorjs\\1.0.1.10\\editorjs.1.0.1.10.nupkg.sha512",
     "C:\\Users\\simranv\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\simranv\\.nuget\\packages\\markdig\\0.31.0\\markdig.0.31.0.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.30.1\\microsoft.identitymodel.abstractions.6.30.1.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.30.1\\microsoft.identitymodel.jsonwebtokens.6.30.1.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\microsoft.identitymodel.logging\\6.30.1\\microsoft.identitymodel.logging.6.30.1.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.30.1\\microsoft.identitymodel.tokens.6.30.1.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\simranv\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.30.1\\system.identitymodel.tokens.jwt.6.30.1.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\simranv\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\simranv\\.nuget\\packages\\tinymce\\6.4.2\\tinymce.6.4.2.nupkg.sha512"
   ],
   "logs": []

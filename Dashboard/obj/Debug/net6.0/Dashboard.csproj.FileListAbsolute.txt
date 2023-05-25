@@ -139,3 +139,8 @@ D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\refint\Dashboard.dll
 D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.pdb
 D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\Dashboard.genruntimeconfig.cache
 D:\M_project\dashboard\Dashboard\obj\Debug\net6.0\ref\Dashboard.dll
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

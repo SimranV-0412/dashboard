@@ -12,12 +12,22 @@
     <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
     <PackageReference Include="Markdig" Version="0.31.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.30.1" />
     <PackageReference Include="TinyMCE" Version="6.4.2" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\App_Data\" />
     <Folder Include="wwwroot\SourceCode\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\mystylesheet.css" />
+    <None Include="wwwroot\image_2023_05_19T10_14_50_816Z.png" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\interviews-logo.png" />
+    <None Include="wwwroot\question-listing.html" />
+    <None Include="wwwroot\question-read.html" />
   </ItemGroup>
 
   <ItemGroup>

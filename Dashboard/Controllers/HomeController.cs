@@ -2,39 +2,28 @@
 using Dashboard.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using HtmlAgilityPack;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
-using System.ComponentModel;
-using System.Diagnostics.Metrics;
-using System.Xml.Linq;
-using System;
-using Markdig;
 using Microsoft.AspNetCore.Hosting.Server;
 using System.Text;
 using System.Web;
 using System.Text.Json.Serialization;
 using Newtonsoft.Json;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Hosting;
-using System.IO;
-using System.Linq.Expressions;
-using static System.Net.Mime.MediaTypeNames;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Threading.Channels;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace Dashboard.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-        private readonly IConfiguration _configuration;
+        private readonly ILogger<HomeController> _logger;  
+        //private readonly IConfiguration _configuration;
+        private readonly IConfiguration _configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
         private readonly IWebHostEnvironment _webHostEnvironment;
-        public HomeController(ILogger<HomeController> logger, IConfiguration configuration, IWebHostEnvironment webHostEnvironment)
+        public HomeController(ILogger<HomeController> logger/*, IConfiguration configuration*/, IWebHostEnvironment webHostEnvironment)
         {
             _logger = logger;
-            _configuration = configuration;
+            //_configuration = configuration;
             _webHostEnvironment = webHostEnvironment;
         }
         public IActionResult Index()
@@ -59,14 +48,15 @@ namespace Dashboard.Controllers
                 {
                     return View(model);
                 }
-
+                
                 // Check if the entered credentials match the values in appsettings.json
                 string Email = _configuration.GetSection("Email").Value;
                 string Password = _configuration.GetSection("Password").Value;
 
                 if (model.Email == Email && model.Password == Password)
                 {
-                    // Authentication succeeded
+                    //HttpContext.Session.SetString("IsLoggedIn", "true");
+                    //HttpContext.Session.SetString("LoggedInEmail", model.Email);
                     // Redirect to the home page or any other protected page
                     return RedirectToAction("Editor");
                 }
@@ -197,27 +187,29 @@ namespace Dashboard.Controllers
         [HttpPost]
         public IActionResult PostDelete(Guid id)
         {
-            List<ArticleModel> articles = new List<ArticleModel>();
+            //List<ArticleModel> articles = new List<ArticleModel>();
             try
             {
-                string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
+                string jsonFilePath = Path.Combine(_webHostEnvironment.WebRootPath, "App_Data", "Article.json");
 
                 if (System.IO.File.Exists(jsonFilePath))
                 {
                     string existingJson = System.IO.File.ReadAllText(jsonFilePath);
-                    articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson) ?? new();
-                }
+                    var articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson) ?? new();
 
-                ArticleModel articleToDelete = articles.FirstOrDefault(a => a.Id == id);
-                if (articleToDelete != null)
-                {
-                    articles.Remove(articleToDelete);
-                }
 
-                // Save the updated list to the JSON file
-                string updatedJson = JsonConvert.SerializeObject(articles);
-                System.IO.File.WriteAllText(jsonFilePath, updatedJson);
-                
+                    ArticleModel articleToDelete = articles.FirstOrDefault(a => a.Id == id);
+                    if (articleToDelete != null)
+                    {
+                        articles.Remove(articleToDelete);
+
+                        // Save the updated list to the JSON file
+                        string updatedJson = JsonConvert.SerializeObject(articles);
+                        System.IO.File.WriteAllText(jsonFilePath, updatedJson);
+
+                        return RedirectToAction("Preview");
+                    }
+                }
                 return RedirectToAction("Preview");
             }
             catch (Exception ex)
@@ -236,7 +228,7 @@ namespace Dashboard.Controllers
             List<ArticleModel> articles = new List<ArticleModel>();
             try
             {
-                string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
+                string jsonFilePath = Path.Combine(_webHostEnvironment.WebRootPath, "App_Data", "Article.json");
 
                 if (System.IO.File.Exists(jsonFilePath))
                 {
@@ -267,12 +259,12 @@ namespace Dashboard.Controllers
         [HttpGet]
         public IActionResult UpdatedEditor(string fileName)
         {
-            string htmlFilesPath = Path.Combine("D:/M_project/dashboard/Dashboard/wwwroot/SourceCode/");
+            string htmlFilesPath = Path.Combine(_configuration.GetSection("HTMLPath").Value);
             // Load the HTML file content into the Editor
             string filePath = Path.Combine(htmlFilesPath, fileName);
             string title = Path.GetFileNameWithoutExtension(filePath);
             string content = System.IO.File.ReadAllText(filePath);
-            var model = new ContentModel { Title = title, Content = content };
+            var model = new ContentModel { Title = title, Content = content};
             return View(model);
         }
         /// <summary>
@@ -283,9 +275,11 @@ namespace Dashboard.Controllers
         [HttpPost]
         public IActionResult UpdateHTML(ContentModel model)
         {
+            
             if (ModelState.IsValid)
             {
-                string htmlFilesPath = Path.Combine("D:/M_project/dashboard/Dashboard/wwwroot/SourceCode/");
+                string htmlFilesPath = Path.Combine(_configuration.GetSection("HTMLPath").Value);
+
                 // Save the updated HTML content to the file
                 string filePath = Path.Combine(htmlFilesPath, $"{model.Title}.html");
                 System.IO.File.WriteAllText(filePath, model.Content);

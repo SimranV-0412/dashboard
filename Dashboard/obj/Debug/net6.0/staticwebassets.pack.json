@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\SourceCode\\Intro-of-JAVA.html"
     },
     {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\Intro-of-Nodejs.html",
+      "PackagePath": "staticwebassets\\SourceCode\\Intro-of-Nodejs.html"
+    },
+    {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\Intro-of-c.html",
       "PackagePath": "staticwebassets\\SourceCode\\Intro-of-c.html"
     },
@@ -73,6 +77,10 @@
       "PackagePath": "staticwebassets\\SourceCode\\Text-Editor5.html"
     },
     {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\This-is-my-editor-page.html",
+      "PackagePath": "staticwebassets\\SourceCode\\This-is-my-editor-page.html"
+    },
+    {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\Title.html",
       "PackagePath": "staticwebassets\\SourceCode\\Title.html"
     },
@@ -93,6 +101,10 @@
       "PackagePath": "staticwebassets\\SourceCode\\method-in-C-Sharp.html"
     },
     {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\my-web-page.html",
+      "PackagePath": "staticwebassets\\SourceCode\\my-web-page.html"
+    },
+    {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\new-delhi.html",
       "PackagePath": "staticwebassets\\SourceCode\\new-delhi.html"
     },
@@ -103,6 +115,10 @@
     {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\properties-of-mysql.html",
       "PackagePath": "staticwebassets\\SourceCode\\properties-of-mysql.html"
+    },
+    {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\properties-of-nodejs.html",
+      "PackagePath": "staticwebassets\\SourceCode\\properties-of-nodejs.html"
     },
     {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\rerebgbg-hgygj.html",
@@ -125,8 +141,16 @@
       "PackagePath": "staticwebassets\\SourceCode\\this-is--my-mysql-page.html"
     },
     {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\this-is-web-page-of-c-Sharp.html",
+      "PackagePath": "staticwebassets\\SourceCode\\this-is-web-page-of-c-Sharp.html"
+    },
+    {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\web-development.html",
       "PackagePath": "staticwebassets\\SourceCode\\web-development.html"
+    },
+    {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\css\\mystylesheet.css",
+      "PackagePath": "staticwebassets\\css\\mystylesheet.css"
     },
     {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\css\\site.css",
@@ -135,6 +159,18 @@
     {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\image_2023_05_19T10_14_50_816Z.png",
+      "PackagePath": "staticwebassets\\image_2023_05_19T10_14_50_816Z.png"
+    },
+    {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\interviews-logo.png",
+      "PackagePath": "staticwebassets\\interviews-logo.png"
     },
     {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\CHANGES.md",
@@ -2143,6 +2179,14 @@
     {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\lib\\tinymce\\tinymce.min.js",
       "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\question-listing.html",
+      "PackagePath": "staticwebassets\\question-listing.html"
+    },
+    {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\question-read.html",
+      "PackagePath": "staticwebassets\\question-read.html"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Dashboard.Microsoft.AspNetCore.StaticWebAssets.props",
