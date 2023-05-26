@@ -4,26 +4,24 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Hosting.Server;
 using System.Text;
-using System.Web;
-using System.Text.Json.Serialization;
 using Newtonsoft.Json;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Authorization;
+
+
 
 namespace Dashboard.Controllers
 {
     public class HomeController : Controller
     {
+        
         private readonly ILogger<HomeController> _logger;  
         //private readonly IConfiguration _configuration;
         private readonly IConfiguration _configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
         private readonly IWebHostEnvironment _webHostEnvironment;
-        public HomeController(ILogger<HomeController> logger/*, IConfiguration configuration*/, IWebHostEnvironment webHostEnvironment)
+        public HomeController(ILogger<HomeController> logger, IWebHostEnvironment webHostEnvironment)
         {
-            _logger = logger;
-            //_configuration = configuration;
+             _logger = logger;
             _webHostEnvironment = webHostEnvironment;
         }
         public IActionResult Index()
@@ -39,7 +37,9 @@ namespace Dashboard.Controllers
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        [HttpPost] 
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginModel model)
         {
             try
@@ -57,6 +57,7 @@ namespace Dashboard.Controllers
                 {
                     //HttpContext.Session.SetString("IsLoggedIn", "true");
                     //HttpContext.Session.SetString("LoggedInEmail", model.Email);
+
                     // Redirect to the home page or any other protected page
                     return RedirectToAction("Editor");
                 }
@@ -298,11 +299,4 @@ namespace Dashboard.Controllers
         }
 
     }
-}
-        //private void SaveArticlesToJson(List<ArticleModel> articles)
-        //{
-        //    string jsonFilesPath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot/App_Data", "Article.json");
-        //    string filePath = Path.Combine(jsonFilesPath, "articles.json");
-        //    string json = JsonConvert.SerializeObject(articles);
-        //    System.IO.File.WriteAllText(filePath, json);
-        //}
+} 

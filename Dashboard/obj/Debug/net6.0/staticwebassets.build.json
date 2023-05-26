@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T6PXTJEgzWdKYh0OanU6jaWSkkPbNUtdflNoIMX5csU=",
+  "Hash": "Kl0VzTEmPWOqHNneDHA0a6m9E5ULtiJD0ul7llUbTYw=",
   "Source": "Dashboard",
   "BasePath": "_content/Dashboard",
   "Mode": "Default",
@@ -2822,12 +2822,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\image_2023_05_19T10_14_50_816Z.png",
+      "Identity": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\image\\image_2023_05_19T10_14_50_816Z.png",
       "SourceId": "Dashboard",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\",
       "BasePath": "_content/Dashboard",
-      "RelativePath": "image_2023_05_19T10_14_50_816Z.png",
+      "RelativePath": "image/image_2023_05_19T10_14_50_816Z.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2836,7 +2836,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image_2023_05_19T10_14_50_816Z.png"
+      "OriginalItemSpec": "wwwroot\\image\\image_2023_05_19T10_14_50_816Z.png"
+    },
+    {
+      "Identity": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\image\\interviews-logo.png",
+      "SourceId": "Dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\",
+      "BasePath": "_content/Dashboard",
+      "RelativePath": "image/interviews-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\interviews-logo.png"
     },
     {
       "Identity": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\index.html",
@@ -2854,23 +2871,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\interviews-logo.png",
-      "SourceId": "Dashboard",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\",
-      "BasePath": "_content/Dashboard",
-      "RelativePath": "interviews-logo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\interviews-logo.png"
     },
     {
       "Identity": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\adapters\\jquery.js",
@@ -11983,6 +11983,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\SourceCode\\this-is--my-mysql-page.html"
+    },
+    {
+      "Identity": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\this-is-my-software.html",
+      "SourceId": "Dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\",
+      "BasePath": "_content/Dashboard",
+      "RelativePath": "SourceCode/this-is-my-software.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SourceCode\\this-is-my-software.html"
     },
     {
       "Identity": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\this-is-web-page-of-c-Sharp.html",

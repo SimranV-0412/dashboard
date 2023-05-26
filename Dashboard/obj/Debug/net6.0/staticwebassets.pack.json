@@ -141,6 +141,10 @@
       "PackagePath": "staticwebassets\\SourceCode\\this-is--my-mysql-page.html"
     },
     {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\this-is-my-software.html",
+      "PackagePath": "staticwebassets\\SourceCode\\this-is-my-software.html"
+    },
+    {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\SourceCode\\this-is-web-page-of-c-Sharp.html",
       "PackagePath": "staticwebassets\\SourceCode\\this-is-web-page-of-c-Sharp.html"
     },
@@ -161,16 +165,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\image_2023_05_19T10_14_50_816Z.png",
-      "PackagePath": "staticwebassets\\image_2023_05_19T10_14_50_816Z.png"
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\image\\image_2023_05_19T10_14_50_816Z.png",
+      "PackagePath": "staticwebassets\\image\\image_2023_05_19T10_14_50_816Z.png"
+    },
+    {
+      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\image\\interviews-logo.png",
+      "PackagePath": "staticwebassets\\image\\interviews-logo.png"
     },
     {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\interviews-logo.png",
-      "PackagePath": "staticwebassets\\interviews-logo.png"
     },
     {
       "Id": "D:\\M_project\\dashboard\\Dashboard\\wwwroot\\js\\ckeditor\\CHANGES.md",

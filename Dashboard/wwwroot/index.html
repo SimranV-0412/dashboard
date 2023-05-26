@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,30 +8,24 @@
     <title>interview.help - Home</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
     <script>
-        // Perform an AJAX request to fetch the JSON data
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'D:\M_project\dashboard\Dashboard\wwwroot\App_Data\Article.json', true);
-        xhr.onload = function () {
-            if (xhr.status === 200) {
-                // Parse the JSON response
-                var data = JSON.parse(xhr.responseText);
+        fetch('/App_Data/Article.json')
+            .then(response => response.json())
+            .then(data => {
+                var template = document.getElementById("titleDiv").innerHTML;
+                var rendered = Mustache.render(template, { data: data });
+                document.getElementById("grid").innerHTML = rendered;
+            })
+            .catch(err => {
+                console.log(err);
+            });
 
-                // Render the template using Mustache.js
-                var template = document.getElementById('question-listing').innerHTML;
-                var rendered = Mustache.render(template, data);
-
-                // Replace the existing content with the rendered template
-                document.getElementById('question-listing').innerHTML = rendered;
-            }
-        };
-        xhr.send();
     </script>
 </head>
 
 <body>
     <header class="navbar">
         <div class="logo">
-            <img src="./images/interviews-logo.png" alt="">
+            <img src="./image/interviews-logo.png" alt="">
         </div>
         <div class="main-navbar-links">
             <ul>
@@ -46,56 +39,20 @@
     </header>
 
     <section class="wrapper">
-        <nav class="left-navbar">
-            <ul>
-                <li class="active"><a href="question-listing.html">C# Interview Questions</a></li>
-                <li><a href="">Sql Interview Questions</a></li>
-                <li><a href="">AWS Cloud Interview Questions</a></li>
-                <li><a href="">MongoDB Interview Questions</a></li>
-                <li><a href="">No-SQL Interview Questions</a></li>
-                <li><a href="">iOS Interview Questions</a></li>
-                <li><a href="">ReactJs Interview Questions</a></li>
-                <li><a href="">Asp.Net Interview Questions</a></li>
-                <li><a href="">Project Manager Interview Questions</a></li>
-                <li><a href="">Angular Interview Questions</a></li>
-            </ul>
-        </nav>
+        
         <main class="main-content">
-            <div class="grid-container">
-                <a href="question-listing.html">
-                    <div>C# Interview Questions</div>
-                </a>
-                <a href="">
-                    <div>Sql Interview Questions</div>
-                </a>
-                <a href="">
-                    <div>AWS Cloud Interview Questions</div>
-                </a>
-                <a href="">
-                    <div>MongoDB Interview Questions</div>
-                </a>
-                <a href="">
-                    <div>No-SQL Interview Questions</div>
-                </a>
-                <a href="">
-                    <div>iOS Interview Questions</div>
-                </a>
-                <a href="">
-                    <div>ReactJs Interview Questions</div>
-                </a>
-                <a href="">
-                    <div>Asp.Net Interview Questions</div>
-                </a>
-                <a href="">
-                    <div>Project Manager Interview Questions</div>
-                </a>
-                <a href="">
-                    <div>Angular Interview Questions</div>
-                </a>
+            <div class="grid-container" id="grid">
+                <script id="titleDiv" type="text/template">
+                    {{#data}}
+                    <a href="{{Link}}">
+                        <div>{{Title}}</div>
+                    </a>
+                    {{/data}}
+                </script>
             </div>
         </main>
         <aside class="rightside">
-            <img src="images/image_2023_05_19T10_14_50_816Z.png" alt="">
+            <img src="image/image_2023_05_19T10_14_50_816Z.png" alt="">
         </aside>
     </section>
 
@@ -108,3 +65,4 @@
 </body>
 
 </html>
+   

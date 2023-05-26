@@ -144,3 +144,4 @@ D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWe
 D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\M_project\dashboard\Dashboard\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
