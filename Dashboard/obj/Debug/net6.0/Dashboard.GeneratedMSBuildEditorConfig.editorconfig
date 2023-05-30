@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dashboard
 build_property.RootNamespace = Dashboard
-build_property.ProjectDir = D:\M_project\dashboard\Dashboard\
+build_property.ProjectDir = D:\project_dashboard\dashboard\Dashboard\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\M_project\dashboard\Dashboard
+build_property.MSBuildProjectDirectory = D:\project_dashboard\dashboard\Dashboard
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/M_project/dashboard/Dashboard/Views/Home/Delete.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/Home/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/Home/Editor.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/Home/Editor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/Home/Index.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/Home/Logout.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/Home/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/Home/Preview.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/Home/Preview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmV2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/Home/UpdatedEditor.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/Home/UpdatedEditor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGVkRWRpdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/Shared/Error.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/_ViewImports.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/_ViewStart.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/M_project/dashboard/Dashboard/Views/Shared/_Layout.cshtml]
+[D:/project_dashboard/dashboard/Dashboard/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d8u233o7wf

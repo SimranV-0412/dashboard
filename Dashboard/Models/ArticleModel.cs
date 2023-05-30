@@ -8,5 +8,6 @@ namespace Dashboard.Models
        public string Title { get; set; }
         //public string Content { get; set; }
        public string Link { get; set; }
+        public string PdfFileName { get; set; }
     }
 }

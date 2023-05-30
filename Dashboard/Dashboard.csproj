@@ -7,13 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\NewFolder\**" />
-    <Content Remove="wwwroot\NewFolder\**" />
-    <EmbeddedResource Remove="wwwroot\NewFolder\**" />
-    <None Remove="wwwroot\NewFolder\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="CKEditor" Version="3.6.4" />
     <PackageReference Include="EditorJS" Version="1.0.1.10" />
     <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
@@ -27,6 +20,8 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\App_Data\" />
+    <Folder Include="wwwroot\UploadFile\" />
+    <Folder Include="wwwroot\UploadImage\" />
     <Folder Include="wwwroot\SourceCode\" />
   </ItemGroup>
 

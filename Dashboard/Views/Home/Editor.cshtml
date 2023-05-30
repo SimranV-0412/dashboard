@@ -16,7 +16,7 @@
     <h3>Text Editor</h3>
 
     <br />
-    @using (Html.BeginForm("PostPreview", "Home", FormMethod.Post))
+    @using (Html.BeginForm("PostPreview", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
         <div class="form-group">
             @Html.LabelFor(model => model.Title, htmlAttributes: new { 
@@ -51,12 +51,42 @@
             </div>
         </div>
         <br />
+        <div class="form-group">
+            @Html.Label("pdfFile","PDF File", htmlAttributes: new { @class = "control-label col-md-2" })
+            <br />
+            <div class="col-md-10">
+                <input type="file" name="pdfFile" class="form-control" />
+                @Html.HiddenFor(model => model.PdfFileName)
+            </div>
+        </div>
         <div>
             <input type="submit" value="Submit" />
         </div>
         
     }
     <script>
-        CKEDITOR.replace("FullDescription");
+        CKEDITOR.replace("FullDescription",{
+            filebrowserUploadUrl: 'D:/project_dashboard/dashboard/Dashboard/wwwroot/UploadImage/', // Replace ' / upload_image' with the actual URL for handling image uploads
+            filebrowserUploadMethod: 'form',
+            //filebrowserUploadFormHeaders: {
+            //    'X-CSRF-Token': 'your_csrf_token' // Add CSRF token header if required
+            //}
+        });
     </script>
 </body>
+      @*  //CKEDITOR.on('dialogDefinition', function (ev) {
+        //    var dialogName = ev.data.name;
+        //    var dialogDefinition = ev.data.definition;
+        //    if (dialogName === 'image') {
+        //        dialogDefinition.filebrowserUploadUrl = '@Url.Action("UploadImage", "Home")';
+        //        dialogDefinition.filebrowserUploadMethod = 'form';
+        //        //dialogDefinition.filebrowserUploadFormHeaders = {
+        //        //    'X-CSRF-Token': 'your_csrf_token' // Add CSRF token header if required
+        //        //};
+        //    }
+        //});*@
+           @* @*<div>
+                @Html.TextBox("file", "", new {  type= "file"}) <br />
+                @*<input type="submit" value="Upload" />*@
+                @*@ViewBag.Message
+            </div>*@

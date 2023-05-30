@@ -107,7 +107,7 @@ namespace Dashboard.Controllers
         /// <param name="model"></param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult PostPreview(ContentModel model)
+        public IActionResult PostPreview(ContentModel model, IFormFile pdfFile)
         {
             try
             {
@@ -153,12 +153,29 @@ namespace Dashboard.Controllers
                         articles = JsonConvert.DeserializeObject<List<ArticleModel>>(existingJson) ?? new();
                     }
 
+                    if (pdfFile != null && pdfFile.Length > 0)
+                    {
+                        // Generate a unique file name for the PDF file
+                        string pdfFileName = $"{model.Title.Replace(" ", "-").Replace("+", "-Plus").Replace("#", "-Sharp").Replace(".", "-Dot").Replace("$", "-Dollar")}.pdf";
+
+                        // Save the PDF file to the specified path
+                        string pdfFilePath = Path.Combine(_webHostEnvironment.WebRootPath, "UploadFile", pdfFileName);
+                        using (var stream = new FileStream(pdfFilePath, FileMode.Create))
+                        {
+                            pdfFile.CopyTo(stream);
+                        }
+                        model.PdfFileName = pdfFileName;
+                        //// Add the PDF file name to the ArticleModel
+                        //newArticle.PdfFileName = pdfFileName;
+                    }
+
                     ArticleModel newArticle = new ArticleModel
                     {
                         Id = model.Id,
                         Title = model.Title,
                         //Content = model.Content,
-                        Link = fileName
+                        Link = fileName,
+                        PdfFileName = model.PdfFileName
                     };
 
                     articles.Add(newArticle);

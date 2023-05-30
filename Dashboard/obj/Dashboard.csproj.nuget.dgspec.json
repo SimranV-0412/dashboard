@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\M_project\\dashboard\\Dashboard\\Dashboard.csproj": {}
+    "D:\\project_dashboard\\dashboard\\Dashboard\\Dashboard.csproj": {}
   },
   "projects": {
-    "D:\\M_project\\dashboard\\Dashboard\\Dashboard.csproj": {
+    "D:\\project_dashboard\\dashboard\\Dashboard\\Dashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\M_project\\dashboard\\Dashboard\\Dashboard.csproj",
+        "projectUniqueName": "D:\\project_dashboard\\dashboard\\Dashboard\\Dashboard.csproj",
         "projectName": "Dashboard",
-        "projectPath": "D:\\M_project\\dashboard\\Dashboard\\Dashboard.csproj",
-        "packagesPath": "C:\\Users\\simranv\\.nuget\\packages\\",
-        "outputPath": "D:\\M_project\\dashboard\\Dashboard\\obj\\",
+        "projectPath": "D:\\project_dashboard\\dashboard\\Dashboard\\Dashboard.csproj",
+        "packagesPath": "C:\\Users\\verma\\.nuget\\packages\\",
+        "outputPath": "D:\\project_dashboard\\dashboard\\Dashboard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\simranv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
